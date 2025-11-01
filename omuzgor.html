@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professor.dev</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+  }
+  header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    color: #4a90e2;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact-form button {
+    background: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .language-switch {
+    margin-top: 10px;
+  }
+  .language-switch button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Professor.dev</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#awards">Awards</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="language-switch">
+    <button onclick="switchLang('tg')">TG</button>
+    <button onclick="switchLang('ru')">RU</button>
+    <button onclick="switchLang('en')">EN</button>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I am Bilol Fazilov, a passionate developer and educator.</p>
+</section>
+
+<section id="awards">
+  <h2>Awards</h2>
+  <ul>
+    <li>Best Developer Award 2024</li>
+    <li>Innovator in Tech 2023</li>
+  </ul>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <p>Coming soon: My latest articles and insights.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script>
+function switchLang(lang) {
+  alert('Language switched to ' + lang + ' (Translation feature to be implemented)');
+}
+</script>
+
+</body>
+</html>
